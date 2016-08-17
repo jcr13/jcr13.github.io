@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>James C. Robertson</title>
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+    <ul class="nav nav-tabs"><!-- navtabs --!>
+        <li role="presentation"><a href="../">Home</a></li>
+        <li role="presentation"><a href="../cv">CV</a></li>
+        <li role="presentation" class="active"><a href="#">Blog</a></li>
+    </ul><!-- end navtabs --!>
+
+    <div class="hero-unit"><!-- hero -->
+	<h1>Coming Soon</h1>
+	<p>Content on the way...</p>
+    </div><!-- End of hero -->
+
+    </body>
+</html>

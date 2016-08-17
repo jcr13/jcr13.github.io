@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<title>James C. Robertson</title>
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+	<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+    <ul class="nav nav-tabs"><!-- navtabs --!>
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="cv">CV</a></li>
+        <li role="presentation"><a href="blog">Blog</a></li>
+    </ul><!-- end navtabs --!>
+
+    <div class="container" style="background-color:white">
+	<div class="page-header"><h1>James C. Robertson <small>PhD</small></h1>
+    </div>
+
+    <div class="container"style="background-color:white;border:1px solid #ADD8E6;padding:5px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px">
+	    <address>
+		<strong> Laufer Center for Physical and Quantitative Biology, Stony Brook University</strong><br>
+                Stony Brook, NY 11794<br>
+		<abbr title="Phone">P:</abbr> (541) 227-9540<br>
+                <!--email encryption from http://hivelogic.com/enkoder/-->
+                <!-- stony brook mail -->
+                <script type="text/javascript">
+                //<![CDATA[
+                <!--
+                var x="function f(x){var i,o=\"\",l=x.length;for(i=0;i<l;i+=2) {if(i+1<l)o+=" +
+                "x.charAt(i+1);try{o+=x.charAt(i);}catch(e){}}return o;}f(\"ufcnitnof x({)av" +
+                " r,i=o\\\"\\\"o,=l.xelgnhtl,o=;lhwli(e.xhcraoCedtAl(1/)3=!84{)rt{y+xx=l;=+;" +
+                "lc}tahce({)}}of(r=i-l;1>i0=i;--{)+ox=c.ahAr(t)i};erutnro s.buts(r,0lo;)f}\\" +
+                "\"(5),6\\\"\\\\HB_LJW22\\\\0]\\\\4M03\\\\\\\\06\\\\07\\\\01\\\\\\\\00\\\\0t" +
+                "\\\\\\\\\\\\6K01\\\\\\\\07\\\\0t\\\\\\\\\\\\3G00\\\\\\\\10\\\\0D\\\\07\\\\0" +
+                "4\\\\01\\\\\\\\04\\\\03\\\\|a01\\\\00\\\\;2=49wt!18<8l,21\\\\0q\\\\&.!=f30g" +
+                "03\\\\\\\\ewPe26\\\\03\\\\02\\\\\\\\24\\\\00\\\\01\\\\\\\\33\\\\01\\\\00\\\\"+
+                "\\\\31\\\\01\\\\03\\\\\\\\01\\\\07\\\\00\\\\\\\\4303\\\\\\\\36\\\\03\\\\00\\"+
+                "\\\\\\33\\\\04\\\\03\\\\\\\\10\\\\06\\\\01\\\\\\\\04\\\\00\\\\03\\\\\\\\3G0" +
+                "3\\\\\\\\02\\\\03\\\\01\\\\\\\\04\\\\06\\\\01\\\\\\\\rY\\\\\\\\25\\\\04\\\\" +
+                "01\\\\\\\\?6~007\\\\0g\\\\=?>%5upo>y+#%9=9<g#)1(- \\\\%(\\\"}fo;n uret}r);+" +
+                ")y+^(i)t(eAodrCha.c(xdeCoarChomfrg.intr=So+7;12%=;y=iy+5)=6i=f({i+)i+l;i<0;" +
+                "i=r(foh;gten.l=x,l\\\"\\\\\\\"\\\\o=i,r va){,y(x fontincfu)\\\"\")"          ;
+                while(x=eval(x));
+                //-->
+                //]]>
+                </script><br>
+		   <!-- <!-- Email encryption -->
+                   <!-- utah mail -->
+                   <!-- <script language="JavaScript" type="text/javascript"-->
+                   <!-- 	var prefix = "&#109;a" + "i&#108;" + "&#116;o";-->
+                   <!-- 	var path = "hr" + "ef" + "=";-->
+                   <!-- 	var addy43269 = "&#106;&#046;&#099;&#046;&#114;&#111;&#098;&#101;&#114;&#116;&#115;&#111;&#110;&#064;";-->
+                   <!-- 	addy43269 = addy43269 + "&#117;&#116;&#097;&#104;&#046;&#101;&#100;&#117;";-->
+                   <!-- 	var addy_text43269 = "send me an email";-->
+                   <!-- 	document.write( "<a " + path + "\"" + prefix + ":" + addy43269 + "\">" );-->
+                   <!-- 	document.write( addy_text43269 );-->
+                   <!-- 	document.write( "<\/a>" );-->
+                   <!-- 	//\n-->
+                   <!-- </script>-->
+                   <!-- <script language="JavaScript" type="text/javascript">-->
+                   <!-- 	document.write( "<span style=\"display: none;\">" );-->
+                   <!-- 	//-->
+                   <!-- </script>-->
+                   <!-- 	Please turn on JavaScript in order to see the email address.-->
+                   <!-- <script language="JavaScript" type="text/javascript">-->
+                   <!-- 	document.write( "</" );-->
+                   <!-- 	document.write( "span>" );-->
+                   <!-- 	//-->
+                   <!-- </script><br> -->
+		    <!-- End of Email encryption --> 
+		<!-- Twitter badge --> 
+		<a href="https://twitter.com/Robertson_JC" class="twitter-follow-button" data-show-count="false">Follow @Robertson_JC</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><br>
+		<!-- Twitter badge --> 
+		<!-- LinkdedIn badge --> 
+		<a href="http://www.linkedin.com/pub/james-robertson/81/aa6/b03" target="_blank"><img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_profile_bluetxt_80x15.png" width="80" height="15" border="0" alt="View James Robertson's profile on LinkedIn"></a>
+		<!-- LinkdedIn badge --> 
+         </address>
+    </div><br>
+
+	    <!-- Work Carousel  -->
+            <center>	
+	    <div id="workcarousel" class="carousel slide" style="max-width:800px">
+
+		<!-- Carousel Indicators -->
+		<ol class="carousel-indicators">
+		    <li data-target="#workcarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#workcarousel" data-slide-to="1" ></li>
+		    <li data-target="#workcarousel" data-slide-to="2" ></li>
+		</ol><!-- End of Carousel Indicators -->
+
+		<!-- Carousel Items -->
+		<div class="carousel-inner">
+		    <div class="active item" >
+			<img src="img/carousel.gif" alt="" style="height:500px">
+		    </div>
+		    <div class="item">
+			<img src="img/carousel-2.png" alt="" style="height:500px">
+		    </div>
+		    <div class="item">
+			    <img src="img/carousel-3.png" alt="" style="height:500px">
+		    </div>
+		</div><!-- End of Carousel Items --> 
+		
+		<!-- Carousel Navigation -->
+		<a class="carousel-control left" href="#workcarousel" data-slide="prev">&lsaquo;</a>
+		<a class="carousel-control right" href="#workcarousel" data-slide="next">&rsaquo;</a>
+		<!-- End of Carousel Navigation -->
+
+	    </div>
+	    </center>
+	    <!-- End of Work Carousel -->
+
+    </div><br>
+
+    <div class="container"style="background-color:white;border:1px solid #ADD8E6;padding:5px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px">
+	    <dl>
+		<dt>Research Interests</dt>
+		    <dd>Biomolecular Simulation, Molecular Modeling, Protein Folding, Protein-DNA Interactions, Biomolecular Structure and Function, HPC, Data Analysis, Computational Drug Discovery and Design<dd><br>
+                    <!-- <a href="http://home.chpc.utah.edu/~u0749266/img/CV-Jul2016.pdf" target="_blank">Full CV</a> -->
+	    </dl>
+	    <img src="img/portrait.png" class="img-thumbnail" alt="" style="height:150px">
+    </div><br>
+    </div> <!-- <div class="container">  -->
+
+    <script src="http://code.jquery.com/jquery-2.0.0.js"></script>
+    <script src="bootstrap/js/bootstrap.js"> </script>
+
+    <script>!function ($) {$(function(){$('#workcarousel').carousel()})}(window.jQuery)</script>
+
+    </body>
+</html>
