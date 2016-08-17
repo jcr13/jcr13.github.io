@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../bootstrap-3.3.7/docs/favicon.ico">
+    <link rel="icon" href="../dna_favicon.ico">
 
     <title>James C. Robertson</title>
 
@@ -29,6 +29,24 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- twitter widget -->
+    <script>window.twttr = (function(d, s, id) {
+     var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+     if (d.getElementById(id)) return t;
+     js = d.createElement(s);
+     js.id = id;
+     js.src = "https://platform.twitter.com/widgets.js";
+     fjs.parentNode.insertBefore(js, fjs);
+           
+     t._e = [];
+     t.ready = function(f) {
+      t._e.push(f);
+     };
+                
+     return t;
+    }(document, "script", "twitter-wjs"));</script>
+
   </head>
 
   <body>
@@ -99,6 +117,9 @@
               <li><a href="#">LinkedIn</a></li>
             </ol>
           </div>
+          
+            <a class="twitter-timeline" href="https://twitter.com/Robertson_JC">Tweets by Robertson_JC</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
         </div><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->
