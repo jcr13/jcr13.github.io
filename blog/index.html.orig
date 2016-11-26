@@ -1,24 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>James C. Robertson</title>
-        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
-        <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../dna_favicon.ico">
 
-    <body>
+    <title>James C. Robertson</title>
 
-    <ul class="nav nav-tabs"><!-- navtabs --!>
-        <li role="presentation"><a href="../">Home</a></li>
-        <li role="presentation"><a href="../cv">CV</a></li>
-        <li role="presentation" class="active"><a href="#">Blog</a></li>
-    </ul><!-- end navtabs --!>
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <div class="hero-unit"><!-- hero -->
-	<h1>Coming Soon</h1>
-	<p>Content on the way...</p>
-    </div><!-- End of hero -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    </body>
+    <!-- Custom styles for this template -->
+    <link href="../blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- twitter widget -->
+    <script>window.twttr = (function(d, s, id) {
+     var js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+     if (d.getElementById(id)) return t;
+     js = d.createElement(s);
+     js.id = id;
+     js.src = "https://platform.twitter.com/widgets.js";
+     fjs.parentNode.insertBefore(js, fjs);
+           
+     t._e = [];
+     t.ready = function(f) {
+      t._e.push(f);
+     };
+                
+     return t;
+    }(document, "script", "twitter-wjs"));</script>
+
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item" href="../">Home</a>
+          <a class="blog-nav-item" href="../cv">CV</a>
+          <a class="blog-nav-item" href="../pubs">Publications</a>
+          <a class="blog-nav-item active" href="#">Blog</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title"></h1>
+        <p class="lead blog-description"></p>
+      </div>
+
+      <div class="row">
+
+          <div class="col-sm-8 blog-main">
+
+<!-- new blog posts, most recent on top -->
+          <div class="blog-post">
+<<<<<<< HEAD
+              <!-- last post Aug 2016, link for archives -->
+              <a name="oct2016"></a>
+              <!-- last post Aug 2016, link for archives -->
+=======
+            <h2 class="blog-post-title">IRACDA Journal Club - Flipped vs. Alternative Active Learning</h2>
+            <p class="blog-post-meta">October 12, 2016</p>
+            <p>The cohort of IRACDA postdoctoral scholars at Stony Brook meets each month to discuss a journal article related to pedagogy in undergraduate science. This month we discussed "Comparing the Efficacy of Flipped vs. Alternative Active Learning in a College Genetics Course" by Thomas A. Mennella.</p>
+            <a href="archive/oct122016.html">Full post...</a>
+          </div><!-- /.blog-post -->
+
+<!-- new blog posts, most recent on top -->
+          <div class="blog-post">
+>>>>>>> fc9efb507f2aefe4edb27ef05bb2a62d576b0d85
+            <h2 class="blog-post-title">Staying Current in Science</h2>
+            <p class="blog-post-meta">October 3, 2016</p>
+            <p>It's important to stay up to date with the literature, but that's not easy to do with so much information out there. Fortunately a lot of journals have options to get email alerts about new content, so that the information comes to you rather than having to go look for it. I try to take advantage of this as much as possible. The emails come in, I can read them when I want, then when I have time follow up on interesting articles. It's important to know what's the latest research in your field, so that you can place your own work in the context of others, and to read to find inspiration and new ideas. My approach is to look at information from a variety of sources; peer-reviewed journals, blogs, and social media. Here I highlight some of the journals I keep my eye on, and where else I look for the latest in science.</p>
+            <a href="archive/oct032016.html">Full post...</a>
+          </div><!-- /.blog-post -->
+
+<!-- new blog posts, most recent on top -->
+          <div class="blog-post">
+              <!-- last post Aug 2016, link for archives -->
+              <a name="sep2016"></a>
+              <!-- last post Aug 2016, link for archives -->
+            <h2 class="blog-post-title">Work, work, work, work, work</h2>
+            <p class="blog-post-meta">September 12, 2016</p>
+            <p>So far my posts have been about my weekend getaways and life outside of lab but I hope to have some more science and/or work-related content soon.</p>
+          </div><!-- /.blog-post -->
+
+<!-- new blog posts, most recent on top -->
+          <div class="blog-post">
+            <h2 class="blog-post-title">Adirondacks</h2>
+            <p class="blog-post-meta">September 8, 2016</p>
+            <p>The end of summer. Days are noticeably shorter, nights cooler, and leaves begin to fall. In the past, autumn has been my favorite season, and I actually look forward to winter. So, typically I'd be excited about fall, but with the quick transition from graduate school to beginning my postdoc I've been wanting to hold onto summer, to enjoy the long, sunny days, and spend more time at the beach. Trouble is, I feel drawn to lab, anxious to get results and gain expertise in my new area of research. But with my desire to squeeze a little more out of summer, and Sarah starting a new teaching job after Labor Day, we decided to head for the mountains. Wait, there are mountains in New York?</p>
+            <a href="archive/sep082016.html">Full post...</a>
+          </div><!-- /.blog-post -->
+
+<!-- new blog posts, most recent on top -->
+          <div class="blog-post">
+              <!-- last post Aug 2016, link for archives -->
+              <a name="aug2016"></a>
+              <!-- last post Aug 2016, link for archives -->
+            <h2 class="blog-post-title">Slide Mountain, Catskills</h2>
+            <p class="blog-post-meta">August 17, 2016</p>
+            <p>Where will we play? Was one of the important questions we asked ourselves as we considered moving from the outdoor paradise of Utah to not-quite-sure-what-to-expect-but-lots-of-people-and-no-mountains Long Island for my postdoc position at Stony Brook University. What kind of hiking will there be? Can we go trail running? Are there even trails there? What about camping, skiing, biking, and fishing? Many of the things we loved about living in the American west, not just Utah, but also Oregon where Sarah grew up and I lived from 2004 to 2011, would suddenly be absent from our lives (or at least more challenging to access). Moving to New York was going to bring lots of changes for us, and much of it wanted, but we also knew we'd be missing out on some of what makes us happiest, being outside and away from the crowds and traffic of modern life.</p>
+            <a href="archive/aug172016.html">Full post...</a>
+          </div><!-- /.blog-post -->
+
+<!-- new blog posts, most recent on top -->
+          <div class="blog-post">
+              <h2 class="blog-post-title">Welcome</h2>
+            <p class="blog-post-meta">August 10, 2016</p>
+            <p>Welcome to my blog. I'm a postdoctoral researcher at Stony Brook University where I am supported by an NIH IRACDA NY-CAPS fellowship. I'll be doing research under the mentorship of Ken Dill and gaining undergraduate teaching experience at one of three partner institutions: Suffolk Community College, SUNY Old Westbury, or Brooklyn College.</p>
+            <p>I earned a B.S. in Chemistry from Southern Oregon University in 2011, then went on to the University of Utah, where I worked in Tom Cheatham's lab and was awarded a PhD in May 2016. My wife and I moved from Utah to Long Island early this summer and look forward to making the most of our opportunities here before moving on to our next adventure.</p>
+            <p>This is my first blog post and I hope there are many more. I expect to post on a number of topics ranging from my experiences as a postdoc to my interests outside the lab such as the outdoors, cooking, and plain old life in general. Like the beginning of any journey, I can set a course but only time will tell where I'll end up, so let's hope for a grand excursion.</p>
+          </div><!-- /.blog-post -->
+
+          <!-- not needed now, maybe in future
+              <nav> 
+            <ul class="pager">
+              <li><a href="#">Previous</a></li>
+              <li><a href="#">Next</a></li>
+            </ul>
+            </nav>
+            --!>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>I'm currently an NIH IRACDA postdoc at Stony Brook University interested in biomolecular simulations and undergraduate teaching. This blog will be a mix of posts related to my experiences in the lab and the classroom as a postdoc, as well as interests outside the lab.</p>
+          </div>
+          <!-- Archives, update each month  -->
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#oct2016">October 2016</a></li>
+            </ol>
+            <ol class="list-unstyled">
+              <li><a href="#sep2016">September 2016</a></li>
+            </ol>
+            <ol class="list-unstyled">
+              <li><a href="#aug2016">August 2016</a></li>
+            </ol>
+          </div>
+          <div class="sidebar-module sidebar-module-inset">
+            <!-- Currently reading embedded image from Amazon - change width and height for proper fit -->
+            <h4>Currently Reading</h4>
+            <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B0166ISAS8&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_5xJiyb5PQB757" ></iframe>
+            <!-- <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B005HG4W9W&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_VqU9xbAKK68VZ" ></iframe> -->
+            <!-- <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B01A4B1PEE&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_07P1xbY2B6QBA" ></iframe> -->
+            <!-- <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B01C2T1XE8&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_1EO0xb7A7E4CM" ></iframe> -->
+            <!-- <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B00G3L6JMS&asin=B00G3L6JMS&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_qYjTxbCQRRE99" ></iframe> -->
+          </div>
+          <!--<div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ol>
+          </div>-->
+            <a class="twitter-timeline" href="https://twitter.com/Robertson_JC">Tweets by Robertson_JC</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <p></a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../bootstrap-3.3.7/docs/dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
