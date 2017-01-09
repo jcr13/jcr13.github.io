@@ -166,9 +166,79 @@
             </ol>
           </div>
           <div class="sidebar-module sidebar-module-inset">
-            <!-- Currently reading embedded image from Amazon - change width and height for proper fit -->
-            <h4>Currently Reading</h4>
-            <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B015CXDLNW&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_FUBoybFRT45A5" ></iframe>
+            <!-- Currently reading goodreads widget -->
+            <h4></h4>
+                  <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
+                        <style type="text/css" media="screen">
+  .gr_custom_container_1483967821 {
+          /* customize your Goodreads widget container here*/
+          border: 1px solid gray;
+                  border-radius:10px;
+                          padding: 10px 5px 10px 5px;
+                                  background-color: #FFFFFF;
+                                          color: #000000;
+                                                  width: 200px
+                                                        }
+    .gr_custom_header_1483967821 {
+            /* customize your Goodreads header here*/
+            border-bottom: 1px solid gray;
+                    width: 100%;
+                            margin-bottom: 5px;
+                                    text-align: center;
+                                            font-size: 120%
+                                                  }
+      .gr_custom_each_container_1483967821 {
+              /* customize each individual book container here */
+              width: 100%;
+                      clear: both;
+                              margin-bottom: 10px;
+                                      overflow: auto;
+                                              padding-bottom: 4px;
+                                                      border-bottom: 1px solid #aaa;
+                                                            }
+        .gr_custom_book_container_1483967821 {1px    /* customize your book covers here */
+                overflow: hidden;
+                        height: 160px;
+                                  text-align: center;
+                                            width: 100%;
+                                                  }
+          .gr_custom_author_1483967821 {
+                  /* customize your author names here */
+                  font-size: 10px;
+                        }
+            .gr_custom_tags_1483967821 {
+                    /* customize your tags here */
+                    font-size: 10px;
+                            color: gray;
+                                  }
+              .gr_custom_rating_1483967821 {
+                      /* customize your rating stars here */
+                      float: right;
+                            }
+                        </style>
+
+                              <div id="gr_custom_widget_1483967821">
+                                            <div class="gr_custom_container_1483967821">
+                                                    <h2 class="gr_custom_header_1483967821">
+                                                            <a style="text-decoration: none;" href="https://www.goodreads.com/review/list/63596190-james-robertson?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">Currently Reading</a>
+                                                                </h2>
+                                                                      <div class="gr_custom_each_container_1483967821">
+                                                                                    <div class="gr_custom_book_container_1483967821">
+                                                                                                    <a title="Rock Springs" href="https://www.goodreads.com/review/show/1871898866?utm_medium=api&amp;utm_source=custom_widget"><img alt="Rock Springs" border="0" src="https://images.gr-assets.com/books/1366542506m/8316549.jpg" /></a>
+                                                                                                              </div>
+                                                                                                                    </div>
+                                                                                                                      <br style="clear: both"/>
+                                                                                                                        <center>
+                                                                                                                                <a href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://www.goodreads.com/images/widget/widget_logo.gif" /></a>
+                                                                                                                                  </center>
+                                                                                                                                    <noscript>
+                                                                                                                                            Share <a href="https://www.goodreads.com/">book reviews</a> and ratings with James, and even join a <a href="https://www.goodreads.com/group">book club</a> on Goodreads.
+                                                                                                                                              </noscript>
+                                                                                                                                                </div>
+
+                                                                                                                                                      </div>
+                                                                                                                                                            <script src="https://www.goodreads.com/review/custom_widget/63596190.Currently%20Reading?cover_position=middle&cover_size=medium&num_books=5&order=a&shelf=currently-reading&show_author=0&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=0&sort=date_added&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=1483967821&widget_text_color=000000&widget_title_size=medium&widget_width=thin" type="text/javascript" charset="utf-8"></script> 
+            <!-- <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B015CXDLNW&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_FUBoybFRT45A5" ></iframe> -->
             <!-- <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B01HW70IY6&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_kB5myb6QJE6KR" ></iframe> -->
             <!-- <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B0166ISAS8&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_5xJiyb5PQB757" ></iframe> -->
             <!-- <iframe type="text/html" width="200" height="300" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B005HG4W9W&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_VqU9xbAKK68VZ" ></iframe> -->
